@@ -44,11 +44,11 @@ const displayRainfallData = (allData) => {
 		rainFallDataArray.push(rainfallData);
 
 		createdElement.innerHTML = `
-    <td>${statistic}</td>
-    <td>${month}</td>
-    <td>${stationName}</td>
-    <td>${unit}</td>
-    <td>${value || ""}</td>`;
+			<td>${statistic}</td>
+			<td>${month}</td>
+			<td>${stationName}</td>
+			<td>${unit}</td>
+			<td>${value || ""}</td>`;
 		table.appendChild(createdElement);
 
 		if (stationIndex === 14) {
